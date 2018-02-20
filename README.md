@@ -42,7 +42,7 @@ KEY-IN : <TEXT>
 VALUE-IN : <TEXT>
   
 KEY-OUT : <TEXT>It is the distinct Article name that has maximum Revision ID and we are taking those outlinks ignoring all old versions of the article.
-VALUE-OUT :<TEXT> The maximum Revision ID for the article and all the corresponding outlinks again seperated by \n. 
+VALUE-OUT :<TEXT> The maximum Revision ID for the article and all the corresponding outlinks again separated by \n. 
   
   # Job 2:
   
@@ -63,11 +63,11 @@ VALUE-OUT :<TEXT> The maximum Revision ID for the article and all the correspond
   KEY-IN : <TEXT>
   VALUE-IN : <TEXT>
   KEY-OUT : <TEXT> It has the unique article names 
-  VALUE-OUT : <TEXT> It as the Revision ID replaced by page rank score from 1st iteration aappended with all outlinks again seperated by " ". We still retain the :at the start of page rank score.
+  VALUE-OUT : <TEXT> It as the Revision ID replaced by page rank score from 1st iteration appended with all outlinks again seperated by " ". We still retain the :at the start of page rank score.
   
   # Job 3:
   
-  This is used to obtain the output in the format specifiedin coursework. There is only mapper here.
+  This is used to obtain the output in the format specified in coursework. There is only mapper here.
   
    Also here, a FileInputFormat with an existing LineRecordReader is specified as the data in file is in KEY-VALUE format.
   Mapper: 
